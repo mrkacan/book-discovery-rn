@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7985fbb-49ea-4146-a74f-c866c781fc56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/book-discovery-rn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/ApiConstants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/methods/auth/authorizeUser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/methods/auth/createAccount.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/methods/books/getBookDetails.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/methods/books/getBooks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddReadingList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddReadingList/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BookList/BookItem/BookItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BookList/BookItem/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BookList/BookList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BookList/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spacer/Spacer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextInput/TextInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextInput/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Title/Title.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Title/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/models/CreateAccountRequestModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/models/CreateAccountResponseModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/models/LoginRequestModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/models/LoginResponseModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/sagas/createAccountSaga.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/sagas/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/sagas/loginSaga.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/models/GetBookDetailsRequestModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/models/GetBookDetailsResponseModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/models/GetBooksRequestModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/models/GetBooksResponseModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/sagas/getBookDetailsSaga.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/sagas/getBooksRequestSaga.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/sagas/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/books/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/createReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigation/LinkingConfiguration.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigation/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/BookDetails/BookDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/BookDetails/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Discover/Discover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Discover/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/FinishedBooksScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Landing/Landing.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Landing/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Login/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Login/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/ReadingList/ReadingListScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/ReadingList/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Register/Register.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Register/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/themes/colors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/device.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/helpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/scaler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SpaceMono-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/SpaceMono-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/adaptive-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/adaptive-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/EditScreenInfo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/StyledText.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Themed.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/__tests__/StyledText-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/__tests__/StyledText-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/Colors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/Layout.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useCachedResources.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useCachedResources.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useColorScheme.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/LinkingConfiguration.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/ModalScreen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/NotFoundScreen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TabOneScreen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/TabTwoScreen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zd05XGWk5B4Nv3AUYOopDhWenj" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/screens/BookDetails" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/screens/BookDetails" />
+      <recent name="$PROJECT_DIR$/src/screens/ReadingList" />
+      <recent name="$PROJECT_DIR$/src/screens/Landing" />
+      <recent name="$PROJECT_DIR$/src/screens/Register" />
+      <recent name="$PROJECT_DIR$/src/screens/Login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/screens/BookDetails" />
+      <recent name="$PROJECT_DIR$/src/screens/ReadingList" />
+      <recent name="$PROJECT_DIR$/src/screens/Landing" />
+      <recent name="$PROJECT_DIR$/src/screens/Register" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7985fbb-49ea-4146-a74f-c866c781fc56" name="Default Changelist" comment="" />
+      <created>1634462475233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634462475233</updated>
+      <workItem from="1634462476768" duration="1475000" />
+      <workItem from="1634464197480" duration="41608000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
