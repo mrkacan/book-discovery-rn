@@ -83,7 +83,7 @@ export type IBooksState = {
         readingList: string[] | [];
     }
     bookDetails: {
-        details: BookType | {};
+        details: BookType;
         isLoading: boolean;
         isError: boolean;
         errorMessage?: string;

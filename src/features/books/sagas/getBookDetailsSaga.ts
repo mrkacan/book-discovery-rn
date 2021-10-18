@@ -13,12 +13,12 @@ function* getBookDetailsSaga(actions: types.GetBookDetailsRequestAction) {
         const bookDetailsResponse: GetBookDetailsSuccessResponseModel = yield call(
             getBookDetails,
             id,
-            token
+            token,
         );
 
         yield put(getBooksAction.getBookDetailsSuccess({book: bookDetailsResponse.book}));
     } catch (e) {
-        Alert.alert('Login Error', e.message)
+        Alert.alert('Error', e.message)
         yield put(getBooksAction.getBookDetailsError(e.message));
     }
 }

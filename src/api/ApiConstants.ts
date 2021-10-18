@@ -3,7 +3,7 @@ const ApiConstants = {
   AUTHORIZE:'/auth/login',
   REGISTER: '/auth/register',
   BOOKS: '/books',
-  BOOK_DETAIL: (id: string) => `'/api/books/${id}'`,
+  BOOK_DETAIL: (id: string) => `/books/${id}`,
 };
 
 export default ApiConstants;

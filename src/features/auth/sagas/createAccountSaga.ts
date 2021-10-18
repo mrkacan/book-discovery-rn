@@ -13,7 +13,6 @@ function* createAccountAsync(actions: types.LoginRequestAction) {
             usernameFromUser,
             password,
         );
-        console.log('createAccountResponse',createAccountResponse)
         yield put(loginActions.createAccountSuccess());
         yield put(loginActions.appAuthorize(createAccountResponse.user));
 

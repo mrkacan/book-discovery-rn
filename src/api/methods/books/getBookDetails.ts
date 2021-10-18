@@ -2,13 +2,13 @@ import Api from '../..';
 import ApiConstants from '../../ApiConstants';
 
 export default function getBookDetails(
-    token: string,
     id: string,
+    token: string,
 ) {
     return Api(
         ApiConstants.BOOK_DETAIL(id),
         {},
-        'post',
+        'get',
         token,
     );
 }

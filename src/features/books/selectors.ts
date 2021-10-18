@@ -24,6 +24,22 @@ export default {
             searchedData,
         };
     },
+    getBookDetails: ({
+                         books: {
+                             bookDetails: {
+                                 details,
+                                 isLoading
+                             }
+                         },
+                     }: {
+        books: IBooksState;
+    }) => {
+        return {
+            isLoading,
+            details,
+        };
+    },
+
 };
 
 
