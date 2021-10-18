@@ -3,7 +3,7 @@
 - Supports TypeScript and Redux-saga
 
 
-###Task List
+### Task List
 - [x] Initiliza Expo Project
 - [x] Install required packages
 - [x] Login
